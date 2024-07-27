@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://goldenicea.github.io</id>
+    <title>龙与地城世界的呼唤</title>
+    <updated>2024-07-27T01:33:34.613Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://goldenicea.github.io"/>
+    <link rel="self" href="https://goldenicea.github.io/atom.xml"/>
+    <subtitle>⌈心所愛的人，百冬有緣再相會。⌋</subtitle>
+    <logo>https://goldenicea.github.io/images/avatar.png</logo>
+    <icon>https://goldenicea.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2024, 龙与地城世界的呼唤</rights>
+    <entry>
+        <title type="html"><![CDATA[【WoD | 挑战】英雄的坟墓 | 阿力克的守护者]]></title>
+        <id>https://goldenicea.github.io/00006/</id>
+        <link href="https://goldenicea.github.io/00006/">
+        </link>
+        <updated>2024-07-26T13:13:15.000Z</updated>
+        <summary type="html"><![CDATA[<p>再怎么巨大，它依然是骷髅。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>再怎么巨大，它依然是骷髅。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【WoD】英雄的坟墓]]></title>
+        <id>https://goldenicea.github.io/00005/</id>
+        <link href="https://goldenicea.github.io/00005/">
+        </link>
+        <updated>2024-07-17T09:18:32.000Z</updated>
+        <summary type="html"><![CDATA[<p>书摊老板和你神秘地相视一笑，在付出一笔不菲的价格后，阿力克的秘密便归你所有。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>书摊老板和你神秘地相视一笑，在付出一笔不菲的价格后，阿力克的秘密便归你所有。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【WoD】矮人阶梯]]></title>
+        <id>https://goldenicea.github.io/00004/</id>
+        <link href="https://goldenicea.github.io/00004/">
+        </link>
+        <updated>2024-07-10T12:48:40.000Z</updated>
+        <summary type="html"><![CDATA[<p>你决定身先士卒，成为第一个再次使用这条通道的人。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>你决定身先士卒，成为第一个再次使用这条通道的人。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【WoD】山中的假日+挑战]]></title>
+        <id>https://goldenicea.github.io/00003/</id>
+        <link href="https://goldenicea.github.io/00003/">
+        </link>
+        <updated>2024-07-10T10:02:43.000Z</updated>
+        <summary type="html"><![CDATA[<p>霎时间，你们怒从心头起，手里齐刷刷地抄起家伙：是什么人在破坏你们的年末假期？</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>霎时间，你们怒从心头起，手里齐刷刷地抄起家伙：是什么人在破坏你们的年末假期？</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【WoD】追逐战！~洋葱节的意外冒险~]]></title>
+        <id>https://goldenicea.github.io/00002/</id>
+        <link href="https://goldenicea.github.io/00002/">
+        </link>
+        <updated>2024-07-10T10:01:28.000Z</updated>
+        <summary type="html"><![CDATA[<p>“和我一起去参加洋葱节吧——！”</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>“和我一起去参加洋葱节吧——！”</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【WoD】夏日庆典]]></title>
+        <id>https://goldenicea.github.io/00001/</id>
+        <link href="https://goldenicea.github.io/00001/">
+        </link>
+        <updated>2024-06-15T11:47:08.000Z</updated>
+        <summary type="html"><![CDATA[<p>富有正义感的冒险者们将会帮助那位可怜的小姐打败私兵！……看在她曾经送了你不少装备的份上！</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>富有正义感的冒险者们将会帮助那位可怜的小姐打败私兵！……看在她曾经送了你不少装备的份上！</p>
+]]></content>
+    </entry>
+</feed>
