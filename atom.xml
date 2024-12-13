@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://goldenicea.github.io/</id>
+    <title>龙与地城世界的呼唤</title>
+    <updated>2024-12-13T17:41:25.650Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://goldenicea.github.io/"/>
+    <link rel="self" href="https://goldenicea.github.io/atom.xml"/>
+    <subtitle>⌈心所愛的人，百冬有緣再相會。⌋</subtitle>
+    <logo>https://goldenicea.github.io/images/avatar.png</logo>
+    <icon>https://goldenicea.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2024, 龙与地城世界的呼唤</rights>
+    <entry>
+        <title type="html"><![CDATA[【CoC · 跑团记录】漠上桑 · 仙药奇闻 · 其壹]]></title>
+        <id>https://goldenicea.github.io/post/00002/</id>
+        <link href="https://goldenicea.github.io/post/00002/">
+        </link>
+        <updated>2024-12-13T14:05:59.000Z</updated>
+        <summary type="html"><![CDATA[<div class="quote-section">
+    <p><font color=peru><i>日出东南隅，照我秦氏楼。秦氏有好女，自名为罗敷。</i></font></p>
+    <p>嘉靖十八年，嘉靖帝封关绝贡，西域震动。"敦煌"此地就此与关内绝断联系。</p>
+    <p>四十八载春秋匆匆而过，眨眼便是万历十五年间，万历皇帝"小憩"已有多月——朝野皆知，实则怠政。次年二月，戚南塘辞世，南海倭乱再起。</p>
+    <p>同年，你们踏入被嘉峪关隔绝在外的敦煌市镇。</p>
+    <p>漠上久无甘霖，龙首无人摩拜；暗巷乞子搭双成群，异貌武镖各表威势。</p>
+    <p>偶听得杳杳一声鹂鸣：却是悬在浪子琴首的一只铃铛。</p>
+</div>
+]]></summary>
+        <content type="html"><![CDATA[<div class="quote-section">
+    <p><font color=peru><i>日出东南隅，照我秦氏楼。秦氏有好女，自名为罗敷。</i></font></p>
+    <p>嘉靖十八年，嘉靖帝封关绝贡，西域震动。"敦煌"此地就此与关内绝断联系。</p>
+    <p>四十八载春秋匆匆而过，眨眼便是万历十五年间，万历皇帝"小憩"已有多月——朝野皆知，实则怠政。次年二月，戚南塘辞世，南海倭乱再起。</p>
+    <p>同年，你们踏入被嘉峪关隔绝在外的敦煌市镇。</p>
+    <p>漠上久无甘霖，龙首无人摩拜；暗巷乞子搭双成群，异貌武镖各表威势。</p>
+    <p>偶听得杳杳一声鹂鸣：却是悬在浪子琴首的一只铃铛。</p>
+</div>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【WoD · 挑战】暴走的食人魔之王]]></title>
+        <id>https://goldenicea.github.io/post/00001/</id>
+        <link href="https://goldenicea.github.io/post/00001/">
+        </link>
+        <updated>2024-12-05T06:35:57.000Z</updated>
+        <summary type="html"><![CDATA[<p>兽人们似乎藏有一些秘密兵器，不过他们也无法控制……</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>兽人们似乎藏有一些秘密兵器，不过他们也无法控制……</p>
+]]></content>
+    </entry>
+</feed>

@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="keywords" content="静态狐狸博客">
+<meta name="description" content="⌈心所愛的人，百冬有緣再相會。⌋">
+<meta name="theme-color" content="#343a40">
+<title>龙与地城世界的呼唤</title>
+<link rel="shortcut icon" href="/favicon.ico?v=1734111427635">
+<link rel="stylesheet" href="/styles/main.css">
+<link rel="stylesheet" href="/media/css/pisces.css">
+
+<link rel="stylesheet" href="/media/fonts/font-awesome.css">
+<link
+  href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Rosario:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext"
+  rel="stylesheet" type="text/css">
+
+<link href="/media/hljs/styles/androidstudio.css"
+  rel="stylesheet">
+
+<script src="/media/hljs/highlight.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.ui.min.js"></script>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+
+</head>
+
+<body>
+  <div class="head-top-line"></div>
+  <div class="header-box">
+    
+<div class="pisces">
+  <header class="header  ">
+    <div class="blog-header box-shadow-wrapper bg-color " id="header">
+      <div class="nav-toggle" id="nav_toggle">
+        <div class="toggle-box">
+          <div class="line line-top"></div>
+          <div class="line line-center"></div>
+          <div class="line line-bottom"></div>
+        </div>
+      </div>
+      <div class="site-meta">       
+        <div class="site-title">
+          
+            <a href="/" class="brand">
+              <span>龙与地城世界的呼唤</span>
+            </a>  
+          
+        </div>
+        
+          <p class="subtitle">⌈心所爱的人，百冬有缘再相会。⌋</p>
+        
+      </div>
+      <nav class="site-nav" id="site_nav">
+        <ul id="nav_ul">
+          
+            
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/" target="_self">
+                  <i class="fa fa-home"></i> 首页
+                </a>
+              
+            </li>
+          
+            
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/archives/" target="_self">
+                  <i class="fa fa-archive"></i> 归档
+                </a>
+              
+            </li>
+          
+            
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/tags/" target="_self">
+                  <i class="fa fa-tags"></i> 标签
+                </a>
+              
+            </li>
+          
+          
+        </ul>
+      </nav>
+    </div>
+  </header>
+</div>
+
+<script type="text/javascript"> 
+ 
+  let showNav = true;
+
+  let navToggle = document.querySelector('#nav_toggle'),
+  siteNav = document.querySelector('#site_nav');
+  
+  function navClick() {
+    let sideBar = document.querySelector('.sidebar');
+    let navUl = document.querySelector('#nav_ul');
+    navToggle.classList.toggle('nav-toggle-active');
+    siteNav.classList.toggle('nav-menu-active');
+    if (siteNav.classList.contains('nav-menu-active')) {
+      siteNav.style = "height: " + (navUl.children.length * 42) +"px !important";
+    } else {
+      siteNav.style = "";
+    }
+  }
+
+  navToggle.addEventListener('click',navClick);  
+</script>
+  </div>
+  <div class="main-continer">
+    
+    <div
+      class="section-layout  pisces">
+      <div class="section-layout-wrapper">
+        <div id="sidebarMeta" class="sidebar">
+    
+<div class="sidebar-wrapper box-shadow-wrapper bg-color">
+  <div class="sidebar-item">
+    <img class="site-author-image right-motion" src="/images/avatar.png"/>
+    <p class="site-author-name">焦尾拉托提普</p>
+    
+    <div class="site-description right-motion">
+      
+        <p id="binft">ICH DIEN</p>
+      
+    </div>
+    
+  </div>
+  <div class="sidebar-item side-item-stat right-motion">
+    <div class="sidebar-item-box">
+      <a href="/archives/">
+        
+        <span class="site-item-stat-count">2</span>
+        <span class="site-item-stat-name">文章</span>
+      </a>
+    </div>
+    <div class="sidebar-item-box">
+      <a href="">
+        <span class="site-item-stat-count">2</span>
+        <span class="site-item-stat-name">分类</span>
+      </a>
+    </div>
+    <div class="sidebar-item-box">
+      <a href="/tags/">
+        <span class="site-item-stat-count">2</span>
+        <span class="site-item-stat-name">标签</span>
+      </a>
+    </div>
+  </div>
+  
+    
+      <div class="sidebar-item">
+        <span class="site-item-rss">
+            <i class="fa fa-rss"></i>
+            <a href="https://goldenicea.github.io//atom.xml" target="_blank">RSS</a>
+        </span>
+      </div>
+    
+  
+  
+    <div class="sidebar-item sidebar-item-social">
+      <div class="social-item">
+        
+          
+            <a href="https://space.bilibili.com/1504837739?spm_id_from=333.1007.0.0">
+              <i class="fa fa-chess-rook-alt" title="Bilibili"></i>
+            </a>
+          
+        
+        
+      </div>
+    </div>
+  
+
+  
+    <div class="sidebar-item right-motion sidebar-item-friends">
+      
+        <p class="friends-title">😶‍🌫️Bilibili个人账号</p>
+      
+      <div class="friends-box">
+        
+          <p>
+            <a href="https://space.bilibili.com/1504837739?spm_id_from=333.1007.0.0">易用之伏虞剑柄</a>
+          </p>
+        
+      </div>
+    </div>
+  
+
+
+</div>
+</div>
+<script>
+  let sidebarMeta = document.querySelector('#sidebarMeta');
+  let scheme = 'pisces';
+  let sidebarWrapper = document.querySelector('.sidebar-wrapper');
+  if (sidebarMeta && (scheme === 'pisces' || scheme === 'gemini')) {
+    document.addEventListener('scroll', function(e) {
+      if (document.scrollingElement.scrollTop > parseInt(sidebarMeta.style.marginTop) + 10) {
+        sidebarWrapper.classList.add('home-sidebar-fixed')
+      } else {
+        sidebarWrapper.classList.remove('home-sidebar-fixed')
+      }
+    });
+  }
+  </script>
+        <div class="section-box tag-line box-shadow-wrapper">
+          <section class="section tags-section posts-expand bg-color">
+            <div class="padding-wrapper">
+  <div class="tag-timeline-box">
+    <div class="tag-timeline-wrapper">
+      <div class="tag-timeline-title">
+        <h2>
+          地城世界
+          <small>标签</small>
+        </h2>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      <a href="https://goldenicea.github.io/post/00001/">
+        <div class="motion-warpper">
+          <div class="tag-post-node">
+            <h1>
+              12-05
+              <small>【WoD · 挑战】暴走的食人魔之王</small>
+            </h1>
+          </div>
+        </div>
+      </a>
+      
+      
+      
+    </div>
+  </div>
+</div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="footer-box">
+  <footer class="footer">
+    <div class="copyright">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | © 2019-2020 Theme By <a href="https://github.com/hsxyhao/gridea-theme-next" target="_blank">HsxyHao</a>
+    </div>
+    <div class="poweredby">
+      
+    </div>
+  </footer>
+  
+  
+  <div class="pisces back-to-top" id="back_to_top">
+    <i class="fa fa-arrow-up"></i>
+    
+    <span class="scrollpercent">
+      <span id="back_to_top_text">0</span>%
+    </span>
+    
+  </div>
+  
+    <div class="bg-img">
+      <img src="\media\images\custom-bgImg.png" />
+    </div>
+  
+  
+  
+</div>
+<script>
+
+  let sideBarOpen = 'sidebar-open';
+  let body = document.body;
+  let back2Top = document.querySelector('#back_to_top'),
+  back2TopText = document.querySelector('#back_to_top_text'),
+  drawerBox = document.querySelector('#drawer_box'),
+  rightSideBar = document.querySelector('.sidebar'),
+  viewport = document.querySelector('body');
+
+  function scrollAnimation(currentY, targetY) {
+   
+    let needScrollTop = targetY - currentY
+    let _currentY = currentY
+    setTimeout(() => {
+      const dist = Math.ceil(needScrollTop / 10)
+      _currentY += dist
+      window.scrollTo(_currentY, currentY)
+      if (needScrollTop > 10 || needScrollTop < -10) {
+        scrollAnimation(_currentY, targetY)
+      } else {
+        window.scrollTo(_currentY, targetY)
+      }
+    }, 1)
+  }
+
+  back2Top.addEventListener("click", function(e) {
+    scrollAnimation(document.scrollingElement.scrollTop, 0);
+    e.stopPropagation();
+    return false;
+  });
+  
+  window.addEventListener('scroll', function(e) {
+    let percent = document.scrollingElement.scrollTop / (document.scrollingElement.scrollHeight - document.scrollingElement.clientHeight) * 100;
+    if (percent > 1 && !back2Top.classList.contains('back-top-active')) {
+      back2Top.classList.add('back-top-active');
+    }
+    if (percent == 0) {
+      back2Top.classList.remove('back-top-active');
+    }
+    if (back2TopText) {
+      back2TopText.textContent = Math.floor(percent);
+    }
+  });
+
+  
+  let hasCacu = false;
+  window.onresize = function() {
+    if (window.width > 991) {
+      calcuHeight();
+    } else {
+      hasCacu = false;
+    }
+  }
+
+  function calcuHeight() {
+    // 动态调整站点概览高度
+    if (!hasCacu && back2Top.classList.contains('pisces') || back2Top.classList.contains('gemini')) {
+      let sideBar = document.querySelector('.sidebar');
+      let navUl = document.querySelector('#site_nav');
+      sideBar.style = 'margin-top:' + (navUl.offsetHeight + navUl.offsetTop + 15) + 'px;';
+      hasCacu = true;
+    }
+  }
+  calcuHeight();
+  
+  let open = false, MOTION_TIME = 300, RIGHT_MOVE_DIS = '320px';
+
+  if (drawerBox) {
+    let rightMotions = document.querySelectorAll('.right-motion');
+    let right = drawerBox.classList.contains('right');
+
+    let transitionDir = right ? "transition.slideRightIn" : "transition.slideLeftIn";
+
+    let openProp, closeProp;
+    if (right) {
+      openProp = {
+        paddingRight: RIGHT_MOVE_DIS 
+      };
+      closeProp = {
+        paddingRight: '0px'
+      };
+    } else {
+      openProp = {
+        paddingLeft: RIGHT_MOVE_DIS 
+      };
+      closeProp = {
+        paddingLeft: '0px'
+      };
+    }
+
+    drawerBox.onclick = function() {
+      open = !open;
+      window.Velocity(rightSideBar, 'stop');
+      window.Velocity(viewport, 'stop');
+      window.Velocity(rightMotions, 'stop');
+      if (open) {
+        window.Velocity(rightSideBar, {
+          width: RIGHT_MOVE_DIS
+        }, {
+          duration: MOTION_TIME,
+          begin: function() {
+            window.Velocity(rightMotions, transitionDir,{ });
+          }
+        })
+        window.Velocity(viewport, openProp,{
+          duration: MOTION_TIME
+        });
+      } else {
+        window.Velocity(rightSideBar, {
+          width: '0px'
+        }, {
+          duration: MOTION_TIME,
+          begin: function() {
+            window.Velocity(rightMotions, {
+              opacity: 0
+            });
+          }
+        })
+        window.Velocity(viewport, closeProp ,{
+          duration: MOTION_TIME
+        });
+      }
+      for (let i = 0; i < drawerBox.children.length; i++) {
+        drawerBox.children[i].classList.toggle('muse-line');
+      }
+      drawerBox.classList.toggle(sideBarOpen);
+    }
+  }
+
+  // 链接跳转
+  let newWindow = 'true'
+  if (newWindow === 'true') {
+    let links = document.querySelectorAll('.post-body a')
+    links.forEach(item => {
+      if (!item.classList.contains('btn')) {
+        item.setAttribute("target","_blank");
+      }
+    })
+  }
+  // 代码高亮
+  hljs.initHighlightingOnLoad();
+
+</script>
+  </div>
+</body>
+<input hidden id="copy" />
+<script>
+  //拿来主义(真香)^_^，Clipboard 实现摘自掘金 https://juejin.im/post/5aefeb6e6fb9a07aa43c20af
+  window.Clipboard = (function (window, document, navigator) {
+    var textArea,
+      copy;
+
+    // 判断是不是ios端
+    function isOS() {
+      return navigator.userAgent.match(/ipad|iphone/i);
+    }
+    //创建文本元素
+    function createTextArea(text) {
+      textArea = document.createElement('textArea');
+      textArea.value = text;
+      textArea.style.width = 0;
+      textArea.style.height = 0;
+      textArea.clientHeight = 0;
+      textArea.clientWidth = 0;
+      document.body.appendChild(textArea);
+    }
+    //选择内容
+    function selectText() {
+      var range,
+        selection;
+
+      if (isOS()) {
+        range = document.createRange();
+        range.selectNodeContents(textArea);
+        selection = window.getSelection();
+        selection.removeAllRanges();
+        selection.addRange(range);
+        textArea.setSelectionRange(0, 999999);
+      } else {
+        textArea.select();
+      }
+    }
+
+    //复制到剪贴板
+    function copyToClipboard() {
+      try {
+        document.execCommand("Copy")
+      } catch (err) {
+        alert("复制错误！请手动复制！")
+      }
+      document.body.removeChild(textArea);
+    }
+
+    copy = function (text) {
+      createTextArea(text);
+      selectText();
+      copyToClipboard();
+    };
+
+    return {
+      copy: copy
+    };
+  })(window, document, navigator);
+
+  function copyCode(e) {
+    if (e.srcElement.tagName === 'SPAN' && e.srcElement.classList.contains('copy-code')) {
+      let code = e.currentTarget.querySelector('code');
+      var text = code.innerText;
+      if (e.srcElement.textContent === '复制成功') {
+        console.log('复制操作频率过高');
+        return;
+      }
+      e.srcElement.textContent = '复制成功';
+      (function (elem) {
+        setTimeout(() => {
+          if (elem.textContent === '复制成功') {
+            elem.textContent = '复制代码'
+          }
+        }, 1000);
+      })(e.srcElement)
+      Clipboard.copy(text);
+    }
+  }
+
+  let pres = document.querySelectorAll('pre');
+  pres.forEach(pre => {
+    let code = pre.querySelector('code');
+    let copyElem = document.createElement('span');
+    copyElem.classList.add('copy-code');
+    copyElem.textContent = '复制代码';
+    pre.appendChild(copyElem);
+    pre.onclick = copyCode
+  })
+</script>
+<script src="/media/js/motion.js"></script>
+
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+<script>
+  var scroll = new SmoothScroll('a[href*="#"]', {
+    speed: 500
+  });
+</script>
+
+<!-- <div class="search-mask" id="search_mask">
+  <div class="search-box">
+    <div class="search-title">
+      <i class="fa fa-search"></i>
+      <div class="input-box">
+        <input type="text" placeholder="搜索">
+      </div>
+      <i class="fa fa-times-circle"></i>
+    </div>
+    <div class="result">
+      
+      <div class="item">
+        <a class="result-title" href="https://goldenicea.github.io/post/00002/"" data-c="
+          &lt;div class=&#34;quote-section&#34;&gt;
+    &lt;p&gt;&lt;font color=peru&gt;&lt;i&gt;日出东南隅，照我秦氏楼。秦氏有好女，自名为罗敷。&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;
+    &lt;p&gt;嘉靖十八年，嘉靖帝封关绝贡，西域震动。&#34;敦煌&#34;此地就此与关内绝断联系。&lt;/p&gt;
+    &lt;p&gt;四十八载春秋匆匆而过，眨眼便是万历十五年间，万历皇帝&#34;小憩&#34;已有多月——朝野皆知，实则怠政。次年二月，戚南塘辞世，南海倭乱再起。&lt;/p&gt;
+    &lt;p&gt;同年，你们踏入被嘉峪关隔绝在外的敦煌市镇。&lt;/p&gt;
+    &lt;p&gt;漠上久无甘霖，龙首无人摩拜；暗巷乞子搭双成群，异貌武镖各表威势。&lt;/p&gt;
+    &lt;p&gt;偶听得杳杳一声鹂鸣：却是悬在浪子琴首的一只铃铛。&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- more --&gt;
+&lt;div id=&#34;novel-container&#34;&gt;
+    &lt;div id=&#34;text-display&#34;&gt;
+        &lt;span id=&#34;previous-text&#34;&gt;&lt;/span&gt;
+        &lt;span id=&#34;current-text&#34;&gt;&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;continue-hint&#34;&gt;●点击继续阅读&lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;
+#novel-container {
+    margin: 20px 0;
+    padding: 20px;
+    background: #f7f7f8;
+    border-radius: 5px;
+    position: relative;  /* 添加相对定位 */
+}
+
+#text-display {
+    min-height: 200px;
+    font-size: 14px;
+    white-space: pre-wrap;
+    line-height: 1.2;
+}
+
+#current-text {
+    border-right: 2px solid #555;
+    animation: blink 1s infinite;
+}
+
+#continue-hint {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 10px;
+    color: #555;
+    opacity: 0;  /* 初始状态隐藏 */
+    animation: fadeInOut 3s infinite;
+    display: none;  /* 初始状态不显示 */
+}
+
+@keyframes blink {
+    0% { border-color: transparent }
+    50% { border-color: #555 }
+    100% { border-color: transparent }
+}
+
+@keyframes fadeInOut {
+    0% { opacity: 0.3 }
+    50% { opacity: 1 }
+    100% { opacity: 0.3 }
+}
+&lt;/style&gt;
+&lt;script&gt;
+const story = [
+    &#34;&lt;b&gt;KP：&lt;/b&gt;\n此事发生时，已是许久年之前的江右。&#34;,
+    &#34;它在你三十二载的人生之中如此微渺，却又饱含志怪般的色彩。有时，你也会怀疑它不过是一道儿时幻想出的错忆。只在偶然的把酒谈笑间，你会想起这件事，并将其作为一则奇闻异谈说与人听。这个故事正是如此开头：&#34;,
+    &#34;正当盛春，时年五岁的你听到巷口有二人交谈，探头出去一看，原来是俩作平民打扮的男子：一个面孔圆润白净，一个瘦高尖细。正彼此打着什么商量。&#34;,
+    &#34;&lt;b&gt;“白羊”：&lt;/b&gt;\n“师尊说的那药，到底真有此事么？就连我们那般问了，也没个着落呀……是不是，根本没这事儿？”&#34;,
+    &#34;&lt;b&gt;“瘦马”：&lt;/b&gt;\n“乱讲，你还敢说师尊的不是了！”&#34;,
+    &#34;“再说，瞧他那模样，决计是藏了什么话头没说与我们听……”&#34;,
+    &#34;“有间屋子他一直没给我们看不是？我看那……喏！这儿就可以望见呐！还支着窗呢，就是高了些，单我俩可弄不好啊……”&#34;,
+    &#34;&lt;b&gt;“白羊”：&lt;/b&gt;\n“师兄莫不是说，那罗老头的长生药就是在……”&#34;,
+    &#34;&lt;b&gt;KP：&lt;/b&gt;\n此话一出，那分明是道士口气的圆面孔男人立马挨了他的瘦师兄一拳。&#34;,
+    &#34;&lt;b&gt;“瘦马”：&lt;/b&gt;\n“呆！师兄我可有哪里讲过了？再说了，就算是说不准的事……你可甘心就这样打道回府么？”&#34;,
+    &#34;&lt;b&gt;“白羊”：&lt;/b&gt;\n“不想……”&#34;,
+    &#34;&lt;b&gt;“瘦马”：&lt;/b&gt;\n“那不就对了。……哎！”&#34;,
+    &#34;&lt;b&gt;KP：&lt;/b&gt;\n俩道士原地磋商一番，忽地，那瘦道士见着了墙根下探头探脑的你，砸吧下嘴，连忙朝你招手呼喝。&#34;,
+    &#34;&lt;b&gt;“瘦马”：&lt;/b&gt;\n“小孩！哎，那…那个……小友！过来，你过来。”&#34;,
+    &#34;“小友啊，我们先前拜访主人家时，落了东西在里头。可这左等右等，倒像是出门去了？你小孩儿，动作快，可帮我们打问这主人家一番？”&#34;,
+    &#34;&lt;font color=#008080&gt;&lt;b&gt;吴贯行：&lt;/font&gt;&lt;/b&gt;\n居然是叫我帮忙？&#34;,
+    &#34;“您与主人家认识的，上门去问便是了，哪里还要我去打问？”&#34;,
+];
+
+let currentParagraph = 0;
+let isTyping = false;
+const previousText = document.getElementById(&#39;previous-text&#39;);
+const currentText = document.getElementById(&#39;current-text&#39;);
+const continueHint = document.getElementById(&#39;continue-hint&#39;);
+
+function typeWriter(text, index = 0) {
+    if (index &lt; text.length) {
+        isTyping = true;
+        continueHint.style.display = &#39;none&#39;;  // 打字时隐藏提示
+        currentText.innerHTML = text.substring(0, index + 1);
+        setTimeout(() =&gt; typeWriter(text, index + 1), 50);
+    } else {
+        isTyping = false;
+        if (previousText.innerHTML) {
+            previousText.innerHTML += &#39;\n\n&#39;;
+        }
+        previousText.innerHTML += currentText.innerHTML;
+        currentText.innerHTML = &#39;&#39;;
+        
+        // 如果还有下一段，显示提示
+        if (currentParagraph &lt; story.length) {
+            continueHint.style.display = &#39;block&#39;;
+        }
+    }
+}
+
+document.getElementById(&#39;novel-container&#39;).addEventListener(&#39;click&#39;, (e) =&gt; {
+    e.stopPropagation();
+    if (isTyping) return;
+    
+    if (currentParagraph &lt; story.length) {
+        typeWriter(story[currentParagraph]);
+        currentParagraph++;
+    }
+});
+&lt;/script&gt;">【CoC · 跑团记录】漠上桑 · 仙药奇闻 · 其壹</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" href="https://goldenicea.github.io/post/00001/"" data-c="
+          &lt;p&gt;兽人们似乎藏有一些秘密兵器，不过他们也无法控制……&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;地城备注&#34;&gt;地城备注&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;限时地城 &lt;strong&gt;驱逐米勒巴赫的兽人&lt;/strong&gt;，触发物为&lt;a href=&#34;https://delta.world-of-dungeons.org/wod/spiel/hero/item.php?name=%E8%8E%AB%E5%8D%A1%E7%9A%84%E6%95%91%E6%98%9F&amp;amp;is_popup=1&#34;&gt;&lt;strong&gt;莫卡的救星&lt;/strong&gt;&lt;/a&gt;（宝库）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;记得设置12逃！&lt;/strong&gt; 除个别学者外，杂项可开可不开。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;站位&#34;&gt;站位&lt;/h2&gt;
+&lt;p&gt;&lt;font color=red&gt; &lt;strong&gt;前排&lt;/strong&gt; &lt;/font&gt;：圣武&lt;br&gt;
+&lt;font color=purple&gt; &lt;strong&gt;中间&lt;/strong&gt; &lt;/font&gt;：其余所有&lt;br&gt;
+&lt;font color=blue&gt; &lt;strong&gt;后排&lt;/strong&gt; &lt;/font&gt;：猎人、骑士、祭司、死灵&lt;/p&gt;
+&lt;h2 id=&#34;永续buff&#34;&gt;永续BUFF&lt;/h2&gt;
+&lt;h3 id=&#34;圣武-祭司-射手&#34;&gt;圣武、祭司、射手&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;全部照常。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;骑士&#34;&gt;骑士&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;大吃/豪饮/阅读/… 均照常。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;猎人&#34;&gt;猎人&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;大吃/豪饮/淬毒/无声行动/最佳视野/… 均照常。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;死灵&#34;&gt;死灵&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;大吃/… 均照常。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;冥想&lt;/strong&gt; &lt;a href=&#34;https://delta.world-of-dungeons.org/wod/spiel/hero/item.php?name=%E8%8A%B3%E9%A6%99%E7%B2%BE%E6%B2%B9&amp;amp;is_popup=1&#34;&gt;芳香精油&lt;/a&gt;（团仓）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;炼金萨满舞者&#34;&gt;炼金&amp;amp;萨满&amp;amp;舞者&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;豪饮/护符强化/… 均照常。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;草药运用/选择药物/午饭时间&lt;/strong&gt; &lt;font color=red&gt;前排&lt;/font&gt;照常+灵巧/体质/体回，&lt;font color=purple&gt;中间&lt;/font&gt;+体回/敏捷/智力，&lt;font color=blue&gt;后排&lt;/font&gt;+敏捷/灵巧/意志/法回/力量。
+&lt;ul&gt;
+&lt;li&gt;稳妥起见，舞者&lt;strong&gt;不要&lt;/strong&gt;开饭&lt;a href=&#34;https://delta.world-of-dungeons.org/wod/spiel/hero/item.php?name=%E5%87%A4%E5%87%B0%E8%82%89&amp;amp;is_popup=1&#34;&gt;凤凰肉&lt;/a&gt;！&lt;s&gt;不然拉雯妲老是流死……&lt;/s&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;诗人&#34;&gt;诗人&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;纹章学/… 均照常。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;法师&#34;&gt;法师&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;心灵护盾/… 均照常。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;冥想&lt;/strong&gt; &lt;a href=&#34;https://delta.world-of-dungeons.org/wod/spiel/hero/item.php?name=%E5%85%89%E8%BE%89%E8%8D%89%E7%B2%BE%E5%8D%8E&amp;amp;is_popup=1&#34;&gt;光辉草精华&lt;/a&gt;（团仓）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;学者&#34;&gt;学者&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;大吃/护符强化/纹章学/… 均照常。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;挑战层以外的战术&#34;&gt;挑战层以外的战术&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;全程BUFF优先按照：
+&lt;ul&gt;
+&lt;li&gt;&lt;font color=red&gt; &lt;strong&gt;前排&lt;/strong&gt; &lt;/font&gt;：近闪!!&lt;/li&gt;
+&lt;li&gt;&lt;font color=purple&gt; &lt;strong&gt;中间&lt;/strong&gt; &lt;/font&gt;：远闪、体回、魔防&lt;/li&gt;
+&lt;li&gt;&lt;font color=blue&gt; &lt;strong&gt;后排&lt;/strong&gt; &lt;/font&gt;：近攻（或灵巧/意志）、远闪、法回、体回&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;DEBUFF（尤其心攻/减攻）很有用，但优先给前排近闪，参考顺序：
+&lt;ul&gt;
+&lt;li&gt;左/右翼、后排、队伍后方、中间、前排&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;远攻/心攻/魔攻/… 参考顺序：
+&lt;ul&gt;
+&lt;li&gt;队伍后方、左/右翼、中间、后排、前排&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;基于以上3条，可考虑全队集中+敏捷。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3F&lt;/strong&gt; 第一轮优先开魔法盾（如果有），单点BUFF优先&lt;font color=red&gt;前排&lt;/font&gt;近闪，群BUFF则优先&lt;font color=purple&gt;中间&lt;/font&gt;近闪。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;5F&lt;/strong&gt; 萨满给&lt;font color=purple&gt;中间&lt;/font&gt;摇鹦鹉（&lt;a href=&#34;https://delta.world-of-dungeons.org/wod/spiel/hero/item.php?name=%E4%B8%80%E5%B0%8F%E7%93%B6%E6%B6%B2%E4%BD%93%EF%BC%88%E8%91%9B%E7%BC%95%E5%AD%90%E9%85%92%EF%BC%89&amp;amp;is_popup=1&#34;&gt;&lt;strong&gt;一小瓶液体（葛缕子酒）&lt;/strong&gt;&lt;/a&gt;（宝库））。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;7F&lt;/strong&gt; 第一轮全力给&lt;font color=purple&gt;中间&lt;/font&gt;、&lt;font color=blue&gt;后排&lt;/font&gt;自然防（或粉碎减免）！&lt;s&gt;其实后排本来可以放生，但拉雯妲太脆了。&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;法师全程火攻，优先AOE，可适当冻云术。&lt;strong&gt;注意7F的回合前不要元素共鸣！&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;骑士&lt;strong&gt;1~5F&lt;/strong&gt;节约点蓝！除永续BUFF外可无脑勇心，不用开上尉/元帅。&lt;/li&gt;
+&lt;li&gt;祭司/诗人&lt;strong&gt;1~2F&lt;/strong&gt;优先&lt;font color=red&gt;前排&lt;/font&gt;近闪，回合中给&lt;font color=purple&gt;中间&lt;/font&gt;远闪。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;挑战层6f战术&#34;&gt;挑战层（6F）战术&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;优先给前排近闪，DEBUFF参考顺序：
+&lt;ul&gt;
+&lt;li&gt;后排、左/右翼、中间、前排、队伍后方&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;远攻/心攻/魔攻/… 参考顺序：
+&lt;ul&gt;
+&lt;li&gt;后排、左/右翼、队伍后方、中间、前排&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;圣武&#34;&gt;圣武&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;优先&lt;font color=red&gt;前排&lt;/font&gt;保护领域，其余照常。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;射手&#34;&gt;射手&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;优先给&lt;font color=blue&gt;后排&lt;/font&gt;（敌）上标记，如有嘲讽同理。其余按照参考顺序穿心矢。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;祭司&#34;&gt;祭司&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;回合前&lt;strong&gt;限定&lt;/strong&gt;&lt;font color=red&gt;前排&lt;/font&gt;小祝迪盾、&lt;font color=purple&gt;中&lt;/font&gt;&lt;font color=blue&gt;后&lt;/font&gt;小祝阿克雷斯的保护，回合中&lt;strong&gt;优先&lt;/strong&gt;&lt;font color=red&gt;前排&lt;/font&gt;大祝全员艾维斯（尽可能多地重复），其余神圣力量/正义之怒/… 均照常。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;骑士-2&#34;&gt;骑士&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;回合前优先勇心、上尉/元帅&lt;font color=blue&gt;后&lt;/font&gt;&lt;font color=purple&gt;中&lt;/font&gt;&lt;font color=red&gt;前&lt;/font&gt;，回合中只留迅捷斩，记得开杂项。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;猎人-2&#34;&gt;猎人&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;想不出能干啥，偷一下&lt;font color=blue&gt;后排&lt;/font&gt;试试。&lt;/li&gt;
+&lt;li&gt;会被食人魔呼死就算了。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;死灵-2&#34;&gt;死灵&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;优先&lt;font color=red&gt;前排&lt;/font&gt;调用灵巧铜筋，随后&lt;font color=blue&gt;后排&lt;/font&gt;指定调用灵巧（或敏捷）潜能爆发，&lt;strong&gt;不要&lt;/strong&gt;给本影。其余照常输出。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;炼金萨满舞者学者诗人&#34;&gt;炼金&amp;amp;萨满&amp;amp;舞者&amp;amp;学者&amp;amp;诗人&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;（有DEBUFF时）优先按照参考顺序丢DEBUFF，没有就照常（或参考祭司）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;法师-2&#34;&gt;法师&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;优先冻云术（仅一次），其余回合中只留火球术，开杂项。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;以及&#34;&gt;以及…&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;别忘了12逃！&lt;/li&gt;
+&lt;/ul&gt;
+">【WoD · 挑战】暴走的食人魔之王</a>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<script>
+  // var escape = "[{&#34;content&#34;:&#34;&lt;div class=\&#34;quote-section\&#34;&gt;\n    &lt;p&gt;&lt;font color=peru&gt;&lt;i&gt;日出东南隅，照我秦氏楼。秦氏有好女，自名为罗敷。&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;\n    &lt;p&gt;嘉靖十八年，嘉靖帝封关绝贡，西域震动。\&#34;敦煌\&#34;此地就此与关内绝断联系。&lt;/p&gt;\n    &lt;p&gt;四十八载春秋匆匆而过，眨眼便是万历十五年间，万历皇帝\&#34;小憩\&#34;已有多月——朝野皆知，实则怠政。次年二月，戚南塘辞世，南海倭乱再起。&lt;/p&gt;\n    &lt;p&gt;同年，你们踏入被嘉峪关隔绝在外的敦煌市镇。&lt;/p&gt;\n    &lt;p&gt;漠上久无甘霖，龙首无人摩拜；暗巷乞子搭双成群，异貌武镖各表威势。&lt;/p&gt;\n    &lt;p&gt;偶听得杳杳一声鹂鸣：却是悬在浪子琴首的一只铃铛。&lt;/p&gt;\n&lt;/div&gt;\n&lt;!-- more --&gt;\n&lt;div id=\&#34;novel-container\&#34;&gt;\n    &lt;div id=\&#34;text-display\&#34;&gt;\n        &lt;span id=\&#34;previous-text\&#34;&gt;&lt;/span&gt;\n        &lt;span id=\&#34;current-text\&#34;&gt;&lt;/span&gt;\n    &lt;/div&gt;\n    &lt;div id=\&#34;continue-hint\&#34;&gt;●点击继续阅读&lt;/div&gt;\n&lt;/div&gt;\n&lt;style&gt;\n#novel-container {\n    margin: 20px 0;\n    padding: 20px;\n    background: #f7f7f8;\n    border-radius: 5px;\n    position: relative;  /* 添加相对定位 */\n}\n\n#text-display {\n    min-height: 200px;\n    font-size: 14px;\n    white-space: pre-wrap;\n    line-height: 1.2;\n}\n\n#current-text {\n    border-right: 2px solid #555;\n    animation: blink 1s infinite;\n}\n\n#continue-hint {\n    position: absolute;\n    top: 5px;\n    left: 5px;\n    font-size: 10px;\n    color: #555;\n    opacity: 0;  /* 初始状态隐藏 */\n    animation: fadeInOut 3s infinite;\n    display: none;  /* 初始状态不显示 */\n}\n\n@keyframes blink {\n    0% { border-color: transparent }\n    50% { border-color: #555 }\n    100% { border-color: transparent }\n}\n\n@keyframes fadeInOut {\n    0% { opacity: 0.3 }\n    50% { opacity: 1 }\n    100% { opacity: 0.3 }\n}\n&lt;/style&gt;\n&lt;script&gt;\nconst story = [\n    \&#34;&lt;b&gt;KP：&lt;/b&gt;\\n此事发生时，已是许久年之前的江右。\&#34;,\n    \&#34;它在你三十二载的人生之中如此微渺，却又饱含志怪般的色彩。有时，你也会怀疑它不过是一道儿时幻想出的错忆。只在偶然的把酒谈笑间，你会想起这件事，并将其作为一则奇闻异谈说与人听。这个故事正是如此开头：\&#34;,\n    \&#34;正当盛春，时年五岁的你听到巷口有二人交谈，探头出去一看，原来是俩作平民打扮的男子：一个面孔圆润白净，一个瘦高尖细。正彼此打着什么商量。\&#34;,\n    \&#34;&lt;b&gt;“白羊”：&lt;/b&gt;\\n“师尊说的那药，到底真有此事么？就连我们那般问了，也没个着落呀……是不是，根本没这事儿？”\&#34;,\n    \&#34;&lt;b&gt;“瘦马”：&lt;/b&gt;\\n“乱讲，你还敢说师尊的不是了！”\&#34;,\n    \&#34;“再说，瞧他那模样，决计是藏了什么话头没说与我们听……”\&#34;,\n    \&#34;“有间屋子他一直没给我们看不是？我看那……喏！这儿就可以望见呐！还支着窗呢，就是高了些，单我俩可弄不好啊……”\&#34;,\n    \&#34;&lt;b&gt;“白羊”：&lt;/b&gt;\\n“师兄莫不是说，那罗老头的长生药就是在……”\&#34;,\n    \&#34;&lt;b&gt;KP：&lt;/b&gt;\\n此话一出，那分明是道士口气的圆面孔男人立马挨了他的瘦师兄一拳。\&#34;,\n    \&#34;&lt;b&gt;“瘦马”：&lt;/b&gt;\\n“呆！师兄我可有哪里讲过了？再说了，就算是说不准的事……你可甘心就这样打道回府么？”\&#34;,\n    \&#34;&lt;b&gt;“白羊”：&lt;/b&gt;\\n“不想……”\&#34;,\n    \&#34;&lt;b&gt;“瘦马”：&lt;/b&gt;\\n“那不就对了。……哎！”\&#34;,\n    \&#34;&lt;b&gt;KP：&lt;/b&gt;\\n俩道士原地磋商一番，忽地，那瘦道士见着了墙根下探头探脑的你，砸吧下嘴，连忙朝你招手呼喝。\&#34;,\n    \&#34;&lt;b&gt;“瘦马”：&lt;/b&gt;\\n“小孩！哎，那…那个……小友！过来，你过来。”\&#34;,\n    \&#34;“小友啊，我们先前拜访主人家时，落了东西在里头。可这左等右等，倒像是出门去了？你小孩儿，动作快，可帮我们打问这主人家一番？”\&#34;,\n    \&#34;&lt;font color=#008080&gt;&lt;b&gt;吴贯行：&lt;/font&gt;&lt;/b&gt;\\n居然是叫我帮忙？\&#34;,\n    \&#34;“您与主人家认识的，上门去问便是了，哪里还要我去打问？”\&#34;,\n];\n\nlet currentParagraph = 0;\nlet isTyping = false;\nconst previousText = document.getElementById(&#39;previous-text&#39;);\nconst currentText = document.getElementById(&#39;current-text&#39;);\nconst continueHint = document.getElementById(&#39;continue-hint&#39;);\n\nfunction typeWriter(text, index = 0) {\n    if (index &lt; text.length) {\n        isTyping = true;\n        continueHint.style.display = &#39;none&#39;;  // 打字时隐藏提示\n        currentText.innerHTML = text.substring(0, index + 1);\n        setTimeout(() =&gt; typeWriter(text, index + 1), 50);\n    } else {\n        isTyping = false;\n        if (previousText.innerHTML) {\n            previousText.innerHTML += &#39;\\n\\n&#39;;\n        }\n        previousText.innerHTML += currentText.innerHTML;\n        currentText.innerHTML = &#39;&#39;;\n        \n        // 如果还有下一段，显示提示\n        if (currentParagraph &lt; story.length) {\n            continueHint.style.display = &#39;block&#39;;\n        }\n    }\n}\n\ndocument.getElementById(&#39;novel-container&#39;).addEventListener(&#39;click&#39;, (e) =&gt; {\n    e.stopPropagation();\n    if (isTyping) return;\n    \n    if (currentParagraph &lt; story.length) {\n        typeWriter(story[currentParagraph]);\n        currentParagraph++;\n    }\n});\n&lt;/script&gt;&#34;,&#34;fileName&#34;:&#34;00002&#34;,&#34;abstract&#34;:&#34;&lt;div class=\&#34;quote-section\&#34;&gt;\n    &lt;p&gt;&lt;font color=peru&gt;&lt;i&gt;日出东南隅，照我秦氏楼。秦氏有好女，自名为罗敷。&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;\n    &lt;p&gt;嘉靖十八年，嘉靖帝封关绝贡，西域震动。\&#34;敦煌\&#34;此地就此与关内绝断联系。&lt;/p&gt;\n    &lt;p&gt;四十八载春秋匆匆而过，眨眼便是万历十五年间，万历皇帝\&#34;小憩\&#34;已有多月——朝野皆知，实则怠政。次年二月，戚南塘辞世，南海倭乱再起。&lt;/p&gt;\n    &lt;p&gt;同年，你们踏入被嘉峪关隔绝在外的敦煌市镇。&lt;/p&gt;\n    &lt;p&gt;漠上久无甘霖，龙首无人摩拜；暗巷乞子搭双成群，异貌武镖各表威势。&lt;/p&gt;\n    &lt;p&gt;偶听得杳杳一声鹂鸣：却是悬在浪子琴首的一只铃铛。&lt;/p&gt;\n&lt;/div&gt;\n&#34;,&#34;title&#34;:&#34;【CoC · 跑团记录】漠上桑 · 仙药奇闻 · 其壹&#34;,&#34;tags&#34;:[{&#34;index&#34;:-1,&#34;name&#34;:&#34;克苏鲁的呼唤&#34;,&#34;slug&#34;:&#34;CallOfCthulhu&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://goldenicea.github.io/tag/CallOfCthulhu/&#34;}],&#34;date&#34;:&#34;2024-12-13 22:05:59&#34;,&#34;dateFormat&#34;:&#34;2024-12-13&#34;,&#34;feature&#34;:&#34;&#34;,&#34;link&#34;:&#34;https://goldenicea.github.io/post/00002/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;4 min read&#34;,&#34;time&#34;:221000,&#34;words&#34;:932,&#34;minutes&#34;:4},&#34;description&#34;:&#34;\n    日出东南隅，照我秦氏楼。秦氏有好女，自名为罗敷。\n    嘉靖十八年，嘉靖帝封关绝贡，西域震动。\&#34;敦煌\&#34;此地就此与关内绝断联系。\n    四十八载春秋匆匆而过，眨眼便是万历十五年间，万历皇帝\&#34;小憩\&#34;已有多月——朝野皆知，实则怠政。...&#34;,&#34;toc&#34;:&#34;&#34;},{&#34;content&#34;:&#34;&lt;p&gt;兽人们似乎藏有一些秘密兵器，不过他们也无法控制……&lt;/p&gt;\n&lt;!-- more --&gt;\n&lt;h2 id=\&#34;地城备注\&#34;&gt;地城备注&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;限时地城 &lt;strong&gt;驱逐米勒巴赫的兽人&lt;/strong&gt;，触发物为&lt;a href=\&#34;https://delta.world-of-dungeons.org/wod/spiel/hero/item.php?name=%E8%8E%AB%E5%8D%A1%E7%9A%84%E6%95%91%E6%98%9F&amp;amp;is_popup=1\&#34;&gt;&lt;strong&gt;莫卡的救星&lt;/strong&gt;&lt;/a&gt;（宝库）。&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;记得设置12逃！&lt;/strong&gt; 除个别学者外，杂项可开可不开。&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2 id=\&#34;站位\&#34;&gt;站位&lt;/h2&gt;\n&lt;p&gt;&lt;font color=red&gt; &lt;strong&gt;前排&lt;/strong&gt; &lt;/font&gt;：圣武&lt;br&gt;\n&lt;font color=purple&gt; &lt;strong&gt;中间&lt;/strong&gt; &lt;/font&gt;：其余所有&lt;br&gt;\n&lt;font color=blue&gt; &lt;strong&gt;后排&lt;/strong&gt; &lt;/font&gt;：猎人、骑士、祭司、死灵&lt;/p&gt;\n&lt;h2 id=\&#34;永续buff\&#34;&gt;永续BUFF&lt;/h2&gt;\n&lt;h3 id=\&#34;圣武-祭司-射手\&#34;&gt;圣武、祭司、射手&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;全部照常。&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3 id=\&#34;骑士\&#34;&gt;骑士&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;大吃/豪饮/阅读/… 均照常。&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3 id=\&#34;猎人\&#34;&gt;猎人&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;大吃/豪饮/淬毒/无声行动/最佳视野/… 均照常。&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3 id=\&#34;死灵\&#34;&gt;死灵&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;大吃/… 均照常。&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;冥想&lt;/strong&gt; &lt;a href=\&#34;https://delta.world-of-dungeons.org/wod/spiel/hero/item.php?name=%E8%8A%B3%E9%A6%99%E7%B2%BE%E6%B2%B9&amp;amp;is_popup=1\&#34;&gt;芳香精油&lt;/a&gt;（团仓）。&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3 id=\&#34;炼金萨满舞者\&#34;&gt;炼金&amp;amp;萨满&amp;amp;舞者&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;豪饮/护符强化/… 均照常。&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;草药运用/选择药物/午饭时间&lt;/strong&gt; &lt;font color=red&gt;前排&lt;/font&gt;照常+灵巧/体质/体回，&lt;font color=purple&gt;中间&lt;/font&gt;+体回/敏捷/智力，&lt;font color=blue&gt;后排&lt;/font&gt;+敏捷/灵巧/意志/法回/力量。\n&lt;ul&gt;\n&lt;li&gt;稳妥起见，舞者&lt;strong&gt;不要&lt;/strong&gt;开饭&lt;a href=\&#34;https://delta.world-of-dungeons.org/wod/spiel/hero/item.php?name=%E5%87%A4%E5%87%B0%E8%82%89&amp;amp;is_popup=1\&#34;&gt;凤凰肉&lt;/a&gt;！&lt;s&gt;不然拉雯妲老是流死……&lt;/s&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3 id=\&#34;诗人\&#34;&gt;诗人&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;纹章学/… 均照常。&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3 id=\&#34;法师\&#34;&gt;法师&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;心灵护盾/… 均照常。&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;冥想&lt;/strong&gt; &lt;a href=\&#34;https://delta.world-of-dungeons.org/wod/spiel/hero/item.php?name=%E5%85%89%E8%BE%89%E8%8D%89%E7%B2%BE%E5%8D%8E&amp;amp;is_popup=1\&#34;&gt;光辉草精华&lt;/a&gt;（团仓）。&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3 id=\&#34;学者\&#34;&gt;学者&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;大吃/护符强化/纹章学/… 均照常。&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2 id=\&#34;挑战层以外的战术\&#34;&gt;挑战层以外的战术&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;全程BUFF优先按照：\n&lt;ul&gt;\n&lt;li&gt;&lt;font color=red&gt; &lt;strong&gt;前排&lt;/strong&gt; &lt;/font&gt;：近闪!!&lt;/li&gt;\n&lt;li&gt;&lt;font color=purple&gt; &lt;strong&gt;中间&lt;/strong&gt; &lt;/font&gt;：远闪、体回、魔防&lt;/li&gt;\n&lt;li&gt;&lt;font color=blue&gt; &lt;strong&gt;后排&lt;/strong&gt; &lt;/font&gt;：近攻（或灵巧/意志）、远闪、法回、体回&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;DEBUFF（尤其心攻/减攻）很有用，但优先给前排近闪，参考顺序：\n&lt;ul&gt;\n&lt;li&gt;左/右翼、后排、队伍后方、中间、前排&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;远攻/心攻/魔攻/… 参考顺序：\n&lt;ul&gt;\n&lt;li&gt;队伍后方、左/右翼、中间、后排、前排&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;基于以上3条，可考虑全队集中+敏捷。&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;3F&lt;/strong&gt; 第一轮优先开魔法盾（如果有），单点BUFF优先&lt;font color=red&gt;前排&lt;/font&gt;近闪，群BUFF则优先&lt;font color=purple&gt;中间&lt;/font&gt;近闪。&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;5F&lt;/strong&gt; 萨满给&lt;font color=purple&gt;中间&lt;/font&gt;摇鹦鹉（&lt;a href=\&#34;https://delta.world-of-dungeons.org/wod/spiel/hero/item.php?name=%E4%B8%80%E5%B0%8F%E7%93%B6%E6%B6%B2%E4%BD%93%EF%BC%88%E8%91%9B%E7%BC%95%E5%AD%90%E9%85%92%EF%BC%89&amp;amp;is_popup=1\&#34;&gt;&lt;strong&gt;一小瓶液体（葛缕子酒）&lt;/strong&gt;&lt;/a&gt;（宝库））。&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;7F&lt;/strong&gt; 第一轮全力给&lt;font color=purple&gt;中间&lt;/font&gt;、&lt;font color=blue&gt;后排&lt;/font&gt;自然防（或粉碎减免）！&lt;s&gt;其实后排本来可以放生，但拉雯妲太脆了。&lt;/s&gt;&lt;/li&gt;\n&lt;li&gt;法师全程火攻，优先AOE，可适当冻云术。&lt;strong&gt;注意7F的回合前不要元素共鸣！&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;骑士&lt;strong&gt;1~5F&lt;/strong&gt;节约点蓝！除永续BUFF外可无脑勇心，不用开上尉/元帅。&lt;/li&gt;\n&lt;li&gt;祭司/诗人&lt;strong&gt;1~2F&lt;/strong&gt;优先&lt;font color=red&gt;前排&lt;/font&gt;近闪，回合中给&lt;font color=purple&gt;中间&lt;/font&gt;远闪。&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2 id=\&#34;挑战层6f战术\&#34;&gt;挑战层（6F）战术&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;优先给前排近闪，DEBUFF参考顺序：\n&lt;ul&gt;\n&lt;li&gt;后排、左/右翼、中间、前排、队伍后方&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;远攻/心攻/魔攻/… 参考顺序：\n&lt;ul&gt;\n&lt;li&gt;后排、左/右翼、队伍后方、中间、前排&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3 id=\&#34;圣武\&#34;&gt;圣武&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;优先&lt;font color=red&gt;前排&lt;/font&gt;保护领域，其余照常。&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3 id=\&#34;射手\&#34;&gt;射手&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;优先给&lt;font color=blue&gt;后排&lt;/font&gt;（敌）上标记，如有嘲讽同理。其余按照参考顺序穿心矢。&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3 id=\&#34;祭司\&#34;&gt;祭司&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;回合前&lt;strong&gt;限定&lt;/strong&gt;&lt;font color=red&gt;前排&lt;/font&gt;小祝迪盾、&lt;font color=purple&gt;中&lt;/font&gt;&lt;font color=blue&gt;后&lt;/font&gt;小祝阿克雷斯的保护，回合中&lt;strong&gt;优先&lt;/strong&gt;&lt;font color=red&gt;前排&lt;/font&gt;大祝全员艾维斯（尽可能多地重复），其余神圣力量/正义之怒/… 均照常。&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3 id=\&#34;骑士-2\&#34;&gt;骑士&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;回合前优先勇心、上尉/元帅&lt;font color=blue&gt;后&lt;/font&gt;&lt;font color=purple&gt;中&lt;/font&gt;&lt;font color=red&gt;前&lt;/font&gt;，回合中只留迅捷斩，记得开杂项。&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3 id=\&#34;猎人-2\&#34;&gt;猎人&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;想不出能干啥，偷一下&lt;font color=blue&gt;后排&lt;/font&gt;试试。&lt;/li&gt;\n&lt;li&gt;会被食人魔呼死就算了。&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3 id=\&#34;死灵-2\&#34;&gt;死灵&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;优先&lt;font color=red&gt;前排&lt;/font&gt;调用灵巧铜筋，随后&lt;font color=blue&gt;后排&lt;/font&gt;指定调用灵巧（或敏捷）潜能爆发，&lt;strong&gt;不要&lt;/strong&gt;给本影。其余照常输出。&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3 id=\&#34;炼金萨满舞者学者诗人\&#34;&gt;炼金&amp;amp;萨满&amp;amp;舞者&amp;amp;学者&amp;amp;诗人&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;（有DEBUFF时）优先按照参考顺序丢DEBUFF，没有就照常（或参考祭司）。&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h3 id=\&#34;法师-2\&#34;&gt;法师&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;优先冻云术（仅一次），其余回合中只留火球术，开杂项。&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2 id=\&#34;以及\&#34;&gt;以及…&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;别忘了12逃！&lt;/li&gt;\n&lt;/ul&gt;\n&#34;,&#34;fileName&#34;:&#34;00001&#34;,&#34;abstract&#34;:&#34;&lt;p&gt;兽人们似乎藏有一些秘密兵器，不过他们也无法控制……&lt;/p&gt;\n&#34;,&#34;title&#34;:&#34;【WoD · 挑战】暴走的食人魔之王&#34;,&#34;tags&#34;:[{&#34;index&#34;:0,&#34;name&#34;:&#34;地城世界&#34;,&#34;slug&#34;:&#34;WorldOfDungeons&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://goldenicea.github.io/tag/WorldOfDungeons/&#34;}],&#34;date&#34;:&#34;2024-12-05 14:35:57&#34;,&#34;dateFormat&#34;:&#34;2024-12-05&#34;,&#34;feature&#34;:&#34;https://goldenicea.github.io//post-images/00001.jpg&#34;,&#34;link&#34;:&#34;https://goldenicea.github.io/post/00001/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;3 min read&#34;,&#34;time&#34;:176000,&#34;words&#34;:860,&#34;minutes&#34;:3},&#34;description&#34;:&#34;兽人们似乎藏有一些秘密兵器，不过他们也无法控制……\n\n地城备注\n\n限时地城 驱逐米勒巴赫的兽人，触发物为莫卡的救星（宝库）。\n记得设置12逃！ 除个别学者外，杂项可开可不开。\n\n站位\n 前排 ：圣武\n 中间 ：其余所有\n 后排 ：猎人、骑士...&#34;,&#34;toc&#34;:&#34;&lt;ul class=\&#34;markdownIt-TOC\&#34;&gt;\n&lt;li&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E5%9C%B0%E5%9F%8E%E5%A4%87%E6%B3%A8\&#34;&gt;地城备注&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%AB%99%E4%BD%8D\&#34;&gt;站位&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E6%B0%B8%E7%BB%ADbuff\&#34;&gt;永续BUFF&lt;/a&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E5%9C%A3%E6%AD%A6-%E7%A5%AD%E5%8F%B8-%E5%B0%84%E6%89%8B\&#34;&gt;圣武、祭司、射手&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E9%AA%91%E5%A3%AB\&#34;&gt;骑士&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%8C%8E%E4%BA%BA\&#34;&gt;猎人&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E6%AD%BB%E7%81%B5\&#34;&gt;死灵&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%82%BC%E9%87%91%E8%90%A8%E6%BB%A1%E8%88%9E%E8%80%85\&#34;&gt;炼金&amp;amp;萨满&amp;amp;舞者&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E8%AF%97%E4%BA%BA\&#34;&gt;诗人&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E6%B3%95%E5%B8%88\&#34;&gt;法师&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E5%AD%A6%E8%80%85\&#34;&gt;学者&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E6%8C%91%E6%88%98%E5%B1%82%E4%BB%A5%E5%A4%96%E7%9A%84%E6%88%98%E6%9C%AF\&#34;&gt;挑战层以外的战术&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E6%8C%91%E6%88%98%E5%B1%826f%E6%88%98%E6%9C%AF\&#34;&gt;挑战层（6F）战术&lt;/a&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E5%9C%A3%E6%AD%A6\&#34;&gt;圣武&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E5%B0%84%E6%89%8B\&#34;&gt;射手&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%A5%AD%E5%8F%B8\&#34;&gt;祭司&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E9%AA%91%E5%A3%AB-2\&#34;&gt;骑士&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%8C%8E%E4%BA%BA-2\&#34;&gt;猎人&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E6%AD%BB%E7%81%B5-2\&#34;&gt;死灵&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%82%BC%E9%87%91%E8%90%A8%E6%BB%A1%E8%88%9E%E8%80%85%E5%AD%A6%E8%80%85%E8%AF%97%E4%BA%BA\&#34;&gt;炼金&amp;amp;萨满&amp;amp;舞者&amp;amp;学者&amp;amp;诗人&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E6%B3%95%E5%B8%88-2\&#34;&gt;法师&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E4%BB%A5%E5%8F%8A\&#34;&gt;以及…&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&#34;}]";
+  // var json = escape.substr(1, escape.length - 2);
+  // var datas = json.split(',');
+  // for (let i=0; i < datas.length; i++) {
+  //   let item = datas[i];
+  //   let attrs = item.split('34;:&#34')
+  //   debugger
+  //   console.log(datas[i])
+  // }
+  let escapeMap = new Map();
+  escapeMap.set('&#34;', '"');
+  escapeMap.set('&gt;', '>');
+  escapeMap.set('&#39;', "'");
+  escapeMap.set('&lt;', '<');
+  escapeMap.set('&quot;', '"');
+  escapeMap.set('&amp;', '&');
+</script> -->
+
+<script src="/media/js/mouse/peace.js"></script>
+
+
+<script src=" /media/js/cool.js"></script>
+
+
+</html>
