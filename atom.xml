@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://goldenicea.github.io/</id>
+    <title>龙与地城世界的呼唤</title>
+    <updated>2025-06-17T18:47:43.803Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://goldenicea.github.io/"/>
+    <link rel="self" href="https://goldenicea.github.io/atom.xml"/>
+    <subtitle>⌈心所愛的人，百冬有緣再相會。⌋</subtitle>
+    <logo>https://goldenicea.github.io/images/avatar.png</logo>
+    <icon>https://goldenicea.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2025, 龙与地城世界的呼唤</rights>
+    <entry>
+        <title type="html"><![CDATA[【沙盒经验】从地图开始搭建功能沙盒！]]></title>
+        <id>https://goldenicea.github.io/post/00008/</id>
+        <link href="https://goldenicea.github.io/post/00008/">
+        </link>
+        <updated>2025-06-17T16:43:19.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【回声岛 · 5.31更新】魔导书大战通用沙盒+小工具]]></title>
+        <id>https://goldenicea.github.io/post/00007/</id>
+        <link href="https://goldenicea.github.io/post/00007/">
+        </link>
+        <updated>2025-06-01T14:47:18.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【个人翻译 · 存档】导言]]></title>
+        <id>https://goldenicea.github.io/post/00006/</id>
+        <link href="https://goldenicea.github.io/post/00006/">
+        </link>
+        <updated>2025-06-01T14:27:35.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【WoD · 成就隐藏】邪教克星]]></title>
+        <id>https://goldenicea.github.io/post/00005/</id>
+        <link href="https://goldenicea.github.io/post/00005/">
+        </link>
+        <updated>2025-05-25T22:54:05.000Z</updated>
+        <summary type="html"><![CDATA[<p>“不要畏惧死亡，我的兄弟姐妹们，这仅仅是迈入齐鲁玛所许诺永生的短浅一步！”</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>“不要畏惧死亡，我的兄弟姐妹们，这仅仅是迈入齐鲁玛所许诺永生的短浅一步！”</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【WoD · 成就挑战】奇妙的雪夜、雪狮魈、四力士！]]></title>
+        <id>https://goldenicea.github.io/post/00004/</id>
+        <link href="https://goldenicea.github.io/post/00004/">
+        </link>
+        <updated>2025-04-02T03:14:43.000Z</updated>
+        <summary type="html"><![CDATA[<p>你和你的伙伴们看着焕然一新的度假小屋，顿时感到这一切都是值得的。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>你和你的伙伴们看着焕然一新的度假小屋，顿时感到这一切都是值得的。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【WoD · 常驻地城】绿野仙踪]]></title>
+        <id>https://goldenicea.github.io/post/00003/</id>
+        <link href="https://goldenicea.github.io/post/00003/">
+        </link>
+        <updated>2025-02-11T07:12:13.000Z</updated>
+        <summary type="html"><![CDATA[<p>棕色的巨石散布得到处都是，刚刚那阵刺痛你眼睛的亮光渐渐地褪去，周围尽是雾气，潮湿得让人的皮肤感觉不舒服，你眼角的余光突然注意到有影子在晃动。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>棕色的巨石散布得到处都是，刚刚那阵刺痛你眼睛的亮光渐渐地褪去，周围尽是雾气，潮湿得让人的皮肤感觉不舒服，你眼角的余光突然注意到有影子在晃动。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【WoD · 限时地城】银刺]]></title>
+        <id>https://goldenicea.github.io/post/00002/</id>
+        <link href="https://goldenicea.github.io/post/00002/">
+        </link>
+        <updated>2024-12-29T09:31:39.000Z</updated>
+        <summary type="html"><![CDATA[<p>伯爵的未婚妻被一名刺客下了剧毒。她陷入沉沉的睡梦中，仅仅依靠祈祷来延缓死亡的到来。大家对这种毒药一无所知，只知道它的名字：银刺。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>伯爵的未婚妻被一名刺客下了剧毒。她陷入沉沉的睡梦中，仅仅依靠祈祷来延缓死亡的到来。大家对这种毒药一无所知，只知道它的名字：银刺。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【WoD · 成就挑战】暴走的食人魔之王]]></title>
+        <id>https://goldenicea.github.io/post/00001/</id>
+        <link href="https://goldenicea.github.io/post/00001/">
+        </link>
+        <updated>2024-12-05T06:35:57.000Z</updated>
+        <summary type="html"><![CDATA[<p>兽人们似乎藏有一些秘密兵器，不过他们也无法控制……</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>兽人们似乎藏有一些秘密兵器，不过他们也无法控制……</p>
+]]></content>
+    </entry>
+</feed>
